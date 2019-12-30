@@ -1,4 +1,4 @@
-# Image-Labelling
+# Image-Labelling (Neural Network from scratch implemetation)
 
 This code implements an optical character recognizer using a one hidden layer neural network with sigmoid activations. It learns the parameters of the model on the training data, report the cross-entropy at the end of each epoch on both train and validation data, and at the end of training write out its predictions and error rates on both datasets.
 
