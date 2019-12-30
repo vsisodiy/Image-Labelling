@@ -2,6 +2,8 @@
 
 This code implements an optical character recognizer using a one hidden layer neural network with sigmoid activations. It learns the parameters of the model on the training data, report the cross-entropy at the end of each epoch on both train and validation data, and at the end of training write out its predictions and error rates on both datasets.
 
+File Format: Each dataset (small, medium, and large) consists of two csv files—train and test. Each row contains 129 columns separated by commas. The first column contains the label and columns 2 to 129 represent the pixel values of a 16 x 8 image in a row major format. Label 0 corresponds to “a,” 1 to “e,” 2 to “g,” 3 to “i,” 4 to “l,” 5 to “n,” 6 to “o,” 7 to “r,” 8 to “t,” and 9 to “u”. You can modify the code according to your need.
+
 Pointers:
 
 1. Model uses a sigmoid activation function on the hidden layer and softmax on the output layer to ensure it forms a proper probability distribution.
